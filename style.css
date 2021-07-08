@@ -50,14 +50,70 @@ button {
     color: white;
     font-size: 20px;
 }
-.container{
-    margin: 300px 0 0 95px;
 
-}
 .banner h2{
-    margin: 100px 0 0  90px ;
-    font-size: 30px;
+    margin: 100px 0 0 ;
+    font-size: 60px;
+    text-align: center;
+    font-family: monospace;
+    color: white;
+
 }
 body{
     background-color: white;
+}
+.row{
+    width: 100%;
+    height: 40vh;
+
+}
+.col{
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    background-image: url(/images/col1.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.col h3{
+    margin: 40px;
+    font-size: 40px;
+}
+.col p{
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+.col2{
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    background-image: url(/images/col2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.col2 h3{
+    margin: 40px;
+    font-size: 40px;
+}
+.col2 p{
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+.col3{
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    background-image: url(/images/Aircraft.png);
+    background-position: center;
+    background-size: cover;
+
+}
+.col3 h3{
+    margin: 40px;
+    font-size: 40px;
+}
+.col3 p{
+    padding-bottom: 40px;
+    font-size: 30px;
 }
